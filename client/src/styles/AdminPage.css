@@ -1,0 +1,6 @@
+.AdminPage {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    min-height: calc(100vh - 60px);
+}

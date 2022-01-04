@@ -1,0 +1,25 @@
+.FAQ {
+    background-image: url('https://cdn.wallpapersafari.com/7/92/vXTBLy.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vertical-center {
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.left {
+    position: absolute;
+    left: 10%;
+}
+
+.right {
+    position: absolute;
+    right: 10%;
+}

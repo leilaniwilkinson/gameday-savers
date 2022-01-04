@@ -1,0 +1,55 @@
+.Footer {
+    padding-top: 6rem;
+    background-color: #510000;
+    color: white;
+}
+
+.Footer .container {
+    display: flex;
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 4rem;
+    gap: 40px;
+}
+
+.container .col1 {
+    flex: 2;
+    padding-right: 60px;
+}
+
+.container .col2, .col3 {
+    flex: 1;
+}
+
+.Footer h1 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.Footer ul,li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    align-self: flex-start;
+}
+
+.Footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .Footer .container {
+        width: 90%;
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .Footer .col3 {
+        padding-top: 12px;
+    }
+}
